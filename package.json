@@ -1,0 +1,17 @@
+{
+  "name": "dropshipizy_server",
+  "version": "0.0.1",
+  "description": "Simple server for dropshipizy chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "admin@dropshipwith.me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-pouchdb": "^2.3.4",
+    "pouchdb": "^6.1.2"
+  }
+}
